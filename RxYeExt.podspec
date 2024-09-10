@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   
   # 如果你的框架依赖于其他第三方库，可以在这里添加依赖
   # s.dependency 'AnotherPod', '~> 1.0'
-  s.dependency pod 'RxSwift'
-  s.dependency pod 'RxCocoa'
-  s.dependency pod 'RxRelay'
-  s.dependency pod 'RxDataSources'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'RxRelay'
+  s.dependency 'RxDataSources'
 end
 
 # pod trunk register your_email@example.com 'Your Name'
